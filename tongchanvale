@@ -1,0 +1,23 @@
+
+package Nguyennam-29219034776;
+import java.util.Scanner;
+
+public class tongchanvale {
+    public static void main(String[] args) {
+        int tongchan = 0;
+        int tongle = 0;
+
+        for (int n = 1; n <= 100; n++) {
+            if (n % 2 == 0) {
+                tongchan += n;
+            } else {
+                tongle += n;
+            }
+        }
+
+        System.out.println("Tong so chan tu 1 đen 100: " + tongchan);
+        System.out.println("Tong so le tu 1 den 100: " + tongle);
+    }
+}
+
+    
